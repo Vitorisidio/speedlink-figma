@@ -1,0 +1,124 @@
+body {
+    background-color: #1B1B1B;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    color: #878787;
+    gap: 62px;
+
+
+
+}
+
+.retangulo {
+    display: flex;
+    height: 50px;
+    width: 604px;
+    background-color: #131313;
+    border-radius: 50px;
+
+}
+
+.lupa {
+
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+
+}
+
+p {
+
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 70px;
+}
+
+
+/*-------------------MAIN------------------------------------*/
+
+
+main{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.venda{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 72px;
+    top: 312px;
+}
+
+h1{
+    
+    font-size: 62px;
+}
+
+.vermelho{
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    z-index: -999;
+    height: 16px;
+    width: 447px;
+    top: 50px;
+    background-color: #e80000;
+
+
+}
+
+.estrelas{
+    display: flex;
+    position: absolute;
+    top: 73px;
+    color: #828282;
+}
+
+.text1{
+    display: flex;
+    position: relative;
+    top: 60px;
+    color: #828282;
+    width: 660px;
+    max-width: 500px;
+}
+
+h2{
+    color: #e80000;
+    display: flex;
+    position: relative;
+    top: 212px;
+    font-size: 62px;
+}
+
+h3{
+    color: #ffffff;
+    display: flex;
+    position: relative;
+    top: 290px;
+    font-size: 31px;
+    text-decoration: line-through;
+}
+
+.comprar{
+    display: flex;
+    height: 57px;
+    width: 267px;
+    background-color: #ff0000;
+    position: relative;
+}
